@@ -1,6 +1,6 @@
 # Ubuntu
 
-本篇記錄了自己大新竹實習期間使用 Ubuntu 開發專案的過程。
+本篇記錄了自己在新竹實習期間使用 Ubuntu 開發專案的過程。
 
 安裝使用的方法是製作 **Ubuntu live USB** （一種把 Ubuntu 寫在 USB 上的方法）  
 開機時只要進入 BIOS，並使用 USB 開機就可以了。
