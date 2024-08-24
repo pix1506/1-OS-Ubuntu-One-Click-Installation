@@ -14,7 +14,8 @@
   Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有一些特殊的優點，使得許多公司選擇繼續使用這個舊版的 Ubuntu，
   本偏安裝的是Server版，不是一般的Desktop版。
 
-  1. 前往Ubuntu 下載iso檔 (https://releases.ubuntu.com/18.04/)
-  2. 製作Ubuntu開機碟
+  1. 前往Ubuntu下載iso檔 (https://releases.ubuntu.com/18.04/)
+     C:\Users\jimy8\Downloads
+  3. 製作Ubuntu開機碟
   
 
