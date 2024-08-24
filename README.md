@@ -9,7 +9,6 @@
 3. 實際測試
 
 ## 內容
-
 ### 一. 安裝 Ubuntu 18.04.6 LTS (Bionic Beaver)
 Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有一些特殊的優點，使得許多公司選擇繼續使用這個舊版的 Ubuntu。本篇安裝的是 Server 版，而非一般的 Desktop 版。
 
