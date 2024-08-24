@@ -15,7 +15,7 @@
   本偏安裝的是Server版，不是一般的Desktop版。
 
   1. 前往Ubuntu下載iso檔 (https://releases.ubuntu.com/18.04/)
-     C:\Users\jimy8\Downloads
+     ![示例圖片](readme%20image/圖片1.png)
   3. 製作Ubuntu開機碟
   
 
