@@ -6,7 +6,8 @@
 因此撰寫腳本是解決這個問題的方式，撰寫腳本（Scripting）是利用腳本語言（如Bash、Python、PowerShell等）來自動化一系列任務的過程。在實習期間，剛好有機會學如何撰寫腳本，協助公司簡化安裝過程，讓客戶能一鍵安裝。
 目前的大學環境中同學也比較少接觸到這方面的知識，所以就撰寫了這篇簡單描述過程，給有需要的人參考。
 
-本篇會手把手從window教你怎麼安裝Ubuntu Server版到腳本撰寫與實際上機測試
+本篇會手把手從window教你怎麼安裝Ubuntu到腳本撰寫與實際上機測試，Ubuntu有分Server版跟Desktop版，本篇使用Server版。
+
 ## 目錄
 1. 安裝 Ubuntu 18.04.6 LTS (Bionic Beaver)
 2. 腳本撰寫過程
@@ -21,15 +22,15 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
       ![安裝步驟](readme%20image/圖片2.png)
    
 2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟，可以參考 [PYDOING 大大的教學影片](https://www.youtube.com/watch?v=i7Uee78td-s)，下圖是製作完成後開機碟的樣子。
-   開機碟（或Live USB）是指一個可啟動ubuntu的USB隨身碟，內含 Ubuntu 試用版，可以拿來安裝正式的Ubuntu或修復系統等等。
+   開機碟（或Live USB）是指一個可啟動ubuntu的USB隨身碟，一般Desktop版燒錄完打開會是Ubuntu試用版，可以拿來安裝正式的Ubuntu或修復系統等等。Server版打開則是直接進入安裝環節。
       ![開機碟完成](readme%20image/圖片3.png)
-      
+      ![Desktop版與Server版]()
 
-3. 安裝完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入bios。
-   (*每台電腦進入bios的按鍵不同，微星是DEL)
+4. 安裝完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入BIOS。(*每台電腦進入bios的按鍵不同，微星是DEL)
+   BIOS是電腦開機第一個被載入的軟體，負責初始化硬體，為後續的載入準備環境。
       ![補一張啥時進bios]
 
-4. 進入bios之後選擇用開機碟來開機，
+6. 進入bios之後選擇用開機碟來開機，開機後就會進入到試用版的Ubuntu，
 
 ### 二. 腳本撰寫過程
 （此處可以繼續描述腳本撰寫的內容）
