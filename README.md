@@ -21,8 +21,9 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
       ![安裝步驟](readme%20image/圖片2.png)
    
 2. 使用 Rufus 製作 Ubuntu 開機碟，可以參考 PYDOING 大大的教學影片，下圖是製作完成後開機碟的樣子。
+   Ubuntu 開機碟（或Live USB）是一個可啟動的 USB 隨身碟或光碟，內含 Ubuntu 試用版，可以拿來安裝正式的Ubuntu或修復系統等等
       ![開機碟完成](readme%20image/圖片3.png)
-      Ubuntu 開機碟（或Live USB）是一個可啟動的 USB 隨身碟或光碟，內含 Ubuntu 試用版，可以拿來安裝正式的Ubuntu或修復系統等等
+      
 
 3. 安裝完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入bios。
    (*每台電腦進入bios的按鍵不同，微星是DEL)
