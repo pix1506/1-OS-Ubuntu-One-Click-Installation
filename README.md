@@ -22,9 +22,17 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
    
 2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟，可以參考[PYDOING大大的教學影片](https://www.youtube.com/watch?v=i7Uee78td-s)，下圖是製作完成後開機碟的樣子。
       ![安裝後隨身碟的樣子](readme%20image/圖片3.png)
+   
+      *Ubuntu開機碟（也稱為啟動磁碟或Live USB）是一個可啟動的USB隨身碟或光碟，內含Ubuntu操作系統的安裝程式和Live環境。這個開機碟可以用來執行以下功能：
+      a.安裝Ubuntu：你可以使用開機碟來啟動電腦，然後進行Ubuntu的安裝。這是安裝Ubuntu的主要方式，無需預先在電腦上有任何作業系統。
+      b.試用Ubuntu：在不改變硬碟上現有作業系統的情況下，你可以直接從USB或光碟上運行Ubuntu，這被稱為Live模式。在這個模式下，你可以測試Ubuntu，確保所有硬體正常運作，然後再決定是否安裝。
+      c.修復系統：如果你現有的Ubuntu系統出現問題，開機碟還可以用來進行系統修復或資料救援。
 
-3. 安裝完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入bios。(*每台電腦進入bios的按鍵不同，微星是DEL)
+4. 安裝完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入bios。
+   (*每台電腦進入bios的按鍵不同，微星是DEL)
       ![補一張啥時進bios]
+
+5. 進入bios之後選擇用開機碟來開機，
 
 ### 二. 腳本撰寫過程
 （此處可以繼續描述腳本撰寫的內容）
