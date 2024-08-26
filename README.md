@@ -16,7 +16,7 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
 1. 前往 [Ubuntu 下載 ISO 檔](https://releases.ubuntu.com/18.04/)
       ![安裝步驟](readme%20image/圖片2.png)
    
-2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟
+2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟，可以參考[PYDOING大大的教學影片](https://www.youtube.com/watch?v=i7Uee78td-s)
 
 
 
