@@ -10,8 +10,8 @@
 因為實習的時候安裝的是Ubuntu 18.04 Server版，所以本篇會教各位怎麼安裝Server版，但如果只想學習腳本開發建議直接裝最新版本的Ubuntu Desktop。
 
 ## 目錄
-1.[安裝 Ubuntu 18.04 Server](#安裝-ubuntu-1804-server)
-2. 腳本撰寫過程
+1.[安裝 Ubuntu 18.04 Server](#安裝-ubuntu-1804-server)  
+2. 腳本撰寫過程  
 3. 實際測試
 
 ## 內容
