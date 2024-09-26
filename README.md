@@ -24,6 +24,7 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
    
 2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟，可以參考 [PYDOING 大大的教學影片](https://www.youtube.com/watch?v=i7Uee78td-s)，下圖是製作完成後開機碟的樣子。  
    開機碟（或Live USB）是指一個可啟動ubuntu的USB隨身碟，一般Desktop版燒錄完打開會是Ubuntu試用版，可以拿來安裝正式的Ubuntu或修復系統等等。
+   
    Server版打開則是直接進入CLI介面，如下圖所示。  
    ![開機碟完成](readme%20image/圖片3.png)  
    ![Desktop版與Server版](readme%20image/圖片4.png)
