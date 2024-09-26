@@ -9,7 +9,7 @@
 
 因為實習的時候安裝的是Ubuntu 18.04 Server版，所以本篇會教各位怎麼安裝Server版，但如果只想學習腳本開發建議直接裝最新版本的Ubuntu Desktop。
 
-## 內容
+## 點擊觀看內容
 <details>
 <summary>一. 安裝 Ubuntu 18.04 Server</summary>
 Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比較穩定。
