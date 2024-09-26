@@ -12,7 +12,6 @@
 ## 點擊觀看內容
 <details>
 <summary>一. 安裝 Ubuntu 18.04 Server</summary>
-Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比較穩定。
 
 **安裝步驟：**
 1. 前往 [Ubuntu 下載 ISO 檔](https://releases.ubuntu.com/18.04/)
