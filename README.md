@@ -15,6 +15,8 @@
 3. 實際測試
 
 ## 內容
+<details>
+<summary>### 一. 安裝 Ubuntu 18.04 Server</summary>
 ### 一. 安裝 Ubuntu 18.04 Server
 Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比較穩定。
 
@@ -35,16 +37,6 @@ Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比�
    ![補一張啥時進bios]
 
 5. 選擇使用開機碟裝置來開機，開機後就會進入到安裝介面，這裡基本上就是照著建議裝就好了，只有分割磁碟那裡比較危險要小心不要刪到自己的資料。
-
-<details>
-  <summary>這是一個摺疊標題</summary>
-
-  這裡是摺疊的內容，可以包含任何 Markdown 格式的文字。
-
-  - 你可以列出項目
-  - 甚至加入圖片
-  
-  ![範例圖片](https://example.com/image.png)
 
 </details>
 
