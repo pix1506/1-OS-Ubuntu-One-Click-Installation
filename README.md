@@ -29,7 +29,7 @@ Ubuntu 18.04.6 LTS (Bionic Beaver) 是一個長期支持（LTS）版本，擁有
    ![開機碟完成](readme%20image/圖片3.png)  
    ![Desktop版與Server版](readme%20image/圖片4.png)
 
-4. 燒錄完後便插上隨身碟重開機，開機時電腦品牌的Logo跳出來時就狂按DEL鍵，進入BIOS。(*每台電腦進入bios的按鍵不同，微星是DEL)
+4. 燒錄完後便插上開機碟重開機，開機時在電腦品牌的Logo要跳出來時的時候就狂按BIOS鍵，進入BIOS。(*每台電腦進入bios的按鍵不同，微星是DEL)
    BIOS是電腦開機第一個被載入的軟體，負責初始化硬體，我們可以在此選擇要用哪個裝置開機。
       ![補一張啥時進bios]
 
