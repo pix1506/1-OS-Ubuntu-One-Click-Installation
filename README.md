@@ -23,9 +23,9 @@ Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比�
       ![安裝步驟](readme%20image/圖片2.png)
    
 2. 使用 [Rufus](https://rufus.ie/zh_TW/) 製作 Ubuntu 開機碟，可以參考 [PYDOING 大大的教學影片](https://www.youtube.com/watch?v=i7Uee78td-s)，下圖是製作完成後開機碟的樣子。  
-   開機碟（或Live USB）是指一個可啟動ubuntu的USB隨身碟，一般Desktop版燒錄完打開會是Ubuntu試用版，可以拿來安裝正式的Ubuntu或修復系統等等。
+   開機碟（或Live USB）是指一個可啟動ubuntu的USB隨身碟，一般Desktop版燒錄完打開會是Ubuntu試用版的桌面，可以拿來安裝正式的Ubuntu或修復系統等等。
    
-   Server版打開則是直接進入CLI介面，如下圖所示。  
+   Server版打開則是直接進入安裝介面，如下圖所示。  
    ![開機碟完成](readme%20image/圖片3.png)  
    ![Desktop版與Server版](readme%20image/圖片4.png)
 
@@ -33,7 +33,7 @@ Ubuntu 18.04 Server是一個長期支持（LTS）版本，開發專案時也比�
    BIOS是電腦開機第一個被載入的軟體，負責初始化硬體，我們可以在此選擇要用哪個裝置開機。  
    ![補一張啥時進bios]
 
-4. 選擇使用開機碟裝置來開機，開機後就會進入到試用版的Ubuntu，
+4. 選擇使用開機碟裝置來開機，開機後就會進入到安裝介面，
 
 ### 二. 腳本撰寫過程
 （此處可以繼續描述腳本撰寫的內容）
