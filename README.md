@@ -137,7 +137,9 @@ fi
 </details>
 <details>
 <summary>三. 從頭開始範例應用(Demo)</summary>
-（此處可以繼續描述腳本撰寫的內容）
+
+**來Demo瞜：**
+講完觀念之後，我們可以實作一個小Demo看看~
 </details>
 
 
