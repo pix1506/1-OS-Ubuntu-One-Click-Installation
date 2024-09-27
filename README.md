@@ -140,6 +140,10 @@ fi
 
 **來Demo瞜：**
 講完觀念之後，我們可以實作一個小Demo看看~
+我撰寫了一個腳本用來安裝我以前開發的小專案，首先就先git clone吧
+```
+git clone https://github.com/pix1506/BashScripts-OneClickInstallation.git
+```
 </details>
 
 
