@@ -48,7 +48,7 @@
 ```bash
 # Ubuntu
 ./build/examples/openpose/openpose.bin
-
+```
 
 </details>
 
