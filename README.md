@@ -40,16 +40,44 @@
 腳本其實就只是一堆Bash指令的集合，重點是要如何寫的快速精簡、具可讀性、錯誤處理。那麼這三點是什麼意思又該如何執行呢?  
 
 **快速精簡：**
-編寫指令不難，但是要如何寫得有效率呢? 筆者認為第一步是要先設計好並熟悉你的資料夾結構。假設今天您設計了一套軟體，並且要設計如何讓客戶用簡單的方式安裝，可能的結構範例如下:
+編寫指令不難，但是要如何寫得有**效率**呢? 筆者認為第一步是要先**設計並熟悉你的資料夾結構**。假設今天您設計了一套軟體，並且要設計如何讓客戶用簡單的方式安裝，可能的結構範例如下:
 ![補一張資料夾結構](readme%20image/圖片7.png)  
 假設您今天設計了一套軟體，要幫客戶的新電腦安裝您的產品，那你的安裝包就可以設計成這樣，包含Ubuntu GUI安裝資料、顯卡驅動(GPU Driver)、您設計的軟體(System Data)、軟體的相關依賴(System Dependencies)、跟其他幫助系統加速的資料等等，每個資料夾的功能定義都簡潔明瞭，這樣不僅能減少撰寫時檢查路徑的時間，客戶端也方便閱讀。  
 
-再來你可能就可以寫
+再來如何**精簡**呢? 假設有一個腳本，它需要多次進行文件壓縮操作，可能像這樣：
 ```bash
-# Ubuntu
-./build/examples/openpose/openpose.bin
+# 壓縮檔案的代碼重複多次
+tar -czvf backup1.tar.gz /path/to/dir1
+echo "Backup for dir1 completed."
+
+tar -czvf backup2.tar.gz /path/to/dir2
+echo "Backup for dir2 completed."
+
+tar -czvf backup3.tar.gz /path/to/dir3
+echo "Backup for dir3 completed."
 ```
 
+那你就可以將重複的部分改為**函數調用**:
+```
+#!/bin/bash
+
+# 定義壓縮和打印的函數
+compress_and_notify() {
+    local filename=$1
+    local dir=$2
+
+    tar -czvf "$filename" "$dir"
+    echo "Backup for $dir completed."
+}
+
+# 調用函數來壓縮不同的目錄
+compress_and_notify "backup1.tar.gz" "/path/to/dir1"
+compress_and_notify "backup2.tar.gz" "/path/to/dir2"
+compress_and_notify "backup3.tar.gz" "/path/to/dir3"
+```
+
+再來就是**避免冗長的程式與命名**，腳本的目的應該是簡單的任務自動化，保持每個腳本專注於一個功能，不要讓腳本變得過於複雜。
+如果功能變得複雜，也可以考慮將其**拆成多個腳本**。
 </details>
 
 <details>
