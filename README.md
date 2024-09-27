@@ -144,6 +144,9 @@ fi
 ```
 git clone https://github.com/pix1506/BashScripts-OneClickInstallation.git
 ```
+clone下來之後可以去demo資料夾裡面打開腳本（node-red-falldetection.sh）
+
+
 </details>
 
 
