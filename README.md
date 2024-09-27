@@ -85,6 +85,37 @@ compress_and_notify "backup3.tar.gz" "/path/to/dir3"
 這樣打開檔案就很清楚的知道這份腳本想達成什麼目的。方便我們可以系統化的**畫出流程圖**畫出流程圖，避免錯誤也加速開發，注意這些小細節，才能寫出高品質的腳本。
 </details>
 
+**3.錯誤處理：**
+每台機器的配置都不同，腳本很常會有失敗的情況，所以**印出錯誤及設定處理機制**是很重要的環節。舉例來說:
+```
+#印出錯誤
+cp file.txt /destination/         #copy file.txt 到destination
+if [ $? -ne 0 ]; then             #如果$?(一種可以儲存上一個命令的狀態的變數) -ne 0(不等於0，失敗的意思)
+  echo "Error: 文件複製失敗！"
+  exit 1
+fi
+
+#加入錯誤處理跟印出錯誤，如果目標不存在，就創建一個
+DESTINATION="/destination/"
+
+if [ ! -d "$DESTINATION" ]; then
+  echo "目標目錄不存在，正在創建 $DESTINATION..."
+  mkdir -p "$DESTINATION"
+  if [ $? -ne 0 ]; then
+    echo "錯誤：無法創建目標目錄 $DESTINATION"
+    exit 1
+  fi
+fi
+
+cp file.txt "$DESTINATION"
+if [ $? -eq 0 ]; then
+  echo "文件複製成功！"
+else
+  echo "錯誤：文件複製失敗。"
+  exit 1
+fi
+
+```
 <details>
 <summary>三. 從頭開始範例應用(Demo)</summary>
 （此處可以繼續描述腳本撰寫的內容）
