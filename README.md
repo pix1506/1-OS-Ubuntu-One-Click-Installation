@@ -86,7 +86,7 @@ compress_and_notify "backup3.tar.gz" "/path/to/dir3"
 </details>
 
 <details>
-<summary>三. 從頭開始範例應用</summary>
+<summary>三. 從頭開始範例應用(Demo)</summary>
 （此處可以繼續描述腳本撰寫的內容）
 </details>
 
