@@ -1,0 +1,22 @@
+[
+    {
+        "id": "functionnode",
+        "type": "function",
+        "z": "c92f87feda0c05d7",
+        "name": "Prepare LINE Notify",
+        "func": "msg.headers = {\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\n    \"Authorization\": \"ur key\"\n};\n// 在原有内容的基础上加上 \"測試用\" 文字\nmsg.payload = \"message=\" + encodeURIComponent(\"*此為測試用訊息：\" + msg.payload.content);\nmsg.method = \"POST\";\nmsg.url = \"https://notify-api.line.me/api/notify\";\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2380,
+        "wires": [
+            [
+                "httprequest"
+            ]
+        ]
+    }
+]
