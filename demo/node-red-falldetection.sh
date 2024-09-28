@@ -111,3 +111,5 @@ xdg-open http://localhost:1880 &
 
 echo "Node-RED installation and setup complete. You can access it at http://localhost:1880"
 
+#restart to update node-red module
+reboot
