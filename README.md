@@ -138,7 +138,7 @@ fi
 <details>
 <summary>三. 從頭開始範例應用(Demo)</summary>
 
-**來Demo瞜：**
+**Let's Demo：**
 講完觀念之後，我們可以實作一個小Demo看看~
 我撰寫了一個腳本用來安裝我以前開發的小專案，首先就先git clone吧
 ```
