@@ -136,7 +136,7 @@ fi
 
 </details>
 <details>
-<summary>三. 從頭開始範例應用(Demo)</summary>
+<summary>三. 範例應用(Demo)</summary>
 
 **Let's Demo：**
 講完觀念之後，我們可以實作一個小Demo看看~
