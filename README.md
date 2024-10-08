@@ -8,6 +8,7 @@
 因此撰寫腳本是解決這個問題的方式，在大學去竹科實習期間，剛好有機會學如何撰寫腳本，協助公司簡化安裝過程，讓客戶能一鍵安裝。
 
 因為實習的時候安裝的是Ubuntu 18.04 Server版，所以本篇會教各位怎麼安裝Server版，但如果只想學習腳本開發建議直接裝Desktop版本然後閱讀第二、三章就好。
+![安裝步驟](readme%20image/demo.png)
 
 ## 點擊觀看內容
 <details>
@@ -139,7 +140,7 @@ fi
 <summary>三. 範例應用(Demo)</summary>
 
 **Let's Demo：**
-講完觀念之後，我們可以實作一個小Demo看看~
+講完觀念之後，我們可以看看範例~  
 我撰寫了一個腳本用來安裝我以前開發的小專案，首先就先git clone吧
 ```
 git clone https://github.com/pix1506/BashScripts-OneClickInstallation.git
